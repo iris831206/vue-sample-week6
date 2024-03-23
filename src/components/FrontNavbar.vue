@@ -10,8 +10,8 @@
         <div class="navbar-nav">
           <router-link to="/products" class="nav-link">產品</router-link>
           <router-link to="/cart" class="nav-link">購物車</router-link>
-          <!-- <RouterLink to="/blog" class="nav-link">貼文</RouterLink>
-          <RouterLink to="/admin/products" class="nav-link">後台產品頁面</RouterLink> -->
+          <!-- <router-link to="/blog" class="nav-link">貼文</router-link> -->
+          <router-link to="/admin/products" class="nav-link">後台產品頁面</router-link>
 
         </div>
         <div class="navbar-nav ms-auto">
