@@ -1,15 +1,5 @@
 <template>
-  <VueLoading :active="isLoading">
-    <div class="loadingio-spinner-ellipsis-tyhni0y6d0m">
-      <div class="ldio-vxrwqxfvut">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-  </VueLoading>
+  <VueLoading :active="isLoading" :z-index="1060" />
 
   <div class="bg-light pt-5 pb-7">
     <div class="container">

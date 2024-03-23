@@ -1,15 +1,5 @@
 <template>
-  <VueLoading :active="isLoading">
-    <div class="loadingio-spinner-ellipsis-tyhni0y6d0m">
-      <div class="ldio-vxrwqxfvut">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-  </VueLoading>
+  <VueLoading :active="isLoading" :z-index="1060" />
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2 g-4">
