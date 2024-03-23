@@ -218,7 +218,7 @@ export default {
         icon: 'info',
         html: `
     恭喜您獲得 <b>優惠碼</b> ,
-    趕快前往選購<a href="/#/products">商品</a>吧
+    趕快前往選購<a href="https://iris831206.github.io/vue-sample-week6/#/products">商品</a>吧
   `,
         showCloseButton: true,
         showCancelButton: false,
@@ -232,7 +232,6 @@ export default {
       // 導航後自動關閉 SweetAlert2
       this.$router.beforeEach((to, from, next) => {
         Swal.close()
-        window.location.reload()
         next()
       })
     }
