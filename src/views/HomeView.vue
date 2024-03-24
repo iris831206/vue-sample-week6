@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="row mt-5">
+    <div class="row mt-5" data-aos="zoom-in">
       <div class="col-md-3 mt-md-4">
         <div class="card border-0 mb-4 position-relative text-center">
           <i style="font-size: 50px;" class="bi bi-flower2"></i>
