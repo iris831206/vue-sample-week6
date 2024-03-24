@@ -4,7 +4,9 @@
   }" :modules="modules" class="mySwiper">
     <swiper-slide v-for="item in products" :key="item.id">
       <div class="card border-0 mb-4 position-relative position-relative" @click="getProduct(item.id)">
+        <div class="image-container">
         <img :src="item.imageUrl" class="card-img-top rounded-0" :alt="item.title">
+      </div>
         <div class="card-body p-0">
           <h5 class="text-dark mt-3 text-decoration-none">{{ item.title }}</h5>
           <p class="card-text mb-0"> $ {{ item.price }} 元</p>
@@ -83,5 +85,22 @@ export default {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.swiper-slide:hover .image-container img {
+  transform: scale(1.1);
 }
 </style>
