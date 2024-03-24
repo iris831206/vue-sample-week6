@@ -27,7 +27,7 @@
             alt="" class="rounded-circle me-5" style="width: 160px; height: 160px; object-fit: cover;">
           <div class="d-flex flex-column">
             <p class="h5 text-start">
-              “除了溫和護膚的效果，這款香皂的香氣也令人愉悅。它散發出天然而清新的氣息，讓我沐浴時彷彿置身於大自然中。每次使用後，我都感到身心俱體地放松和愉悅。”</p>
+              “除了溫和護膚的效果，這款香皂的香氣也令人愉悅。它散發出天然而清新的氣息，讓我沐浴時彷彿置身於大自然中。每次使用後，我都感到身心俱體地放鬆和愉悅。”</p>
             <p class="mt-auto text-end">──來自愛用者 Betty</p>
           </div>
         </div>
