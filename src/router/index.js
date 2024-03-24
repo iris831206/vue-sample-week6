@@ -80,4 +80,10 @@ const router = createRouter({
   routes
 })
 
+router.beforeEach((to, from, next) => {
+  // 每次導航時滾動到頁面頂部
+  window.scrollTo(0, 0)
+  next()
+})
+
 export default router
