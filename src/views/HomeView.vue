@@ -122,7 +122,7 @@
     </div>
   </div>
   <div class="container my-5">
-    <div class="row">
+    <div class="row" data-aos="fade-left">
       <div class="col-md-6">
         <img
           src="https://storage.googleapis.com/vue-course-api.appspot.com/iris831206/1710771948772.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jAmsuCOGxNvS2gY5n67YJjDViwiiBKUygsWfynXiXwq3tGVEk8EyfpplNW54mWi%2FR9PgSKVsC5SrsQ7kXbyjSmhiJlL0EdAgSrwLQvrEhNTgaKZa24jQJO56GMSVLH4NJQwsSkA36e3wvEupT8WRSWTHNSk87Vsi6DRFKeLod1dNK95l%2B%2FmzwKSoLdJJ2NxG4kNfLb5ag6%2B8D7AMTQvAyw8Nc8WgukLBNlUZ1K1jBC2sWSTAhv28lh1D9a3CSVEgcmssSOf7cD8aN7GjgRz2KYEfyQztxQZ1S5htxhqZPJWgbRX3siVz3nN40EoiMMuupRa%2BuWPeANKFiCEnVr8z8Q%3D%3D"
@@ -135,7 +135,7 @@
         </p>
       </div>
     </div>
-    <div class="row flex-row-reverse justify-content-between mt-4">
+    <div class="row flex-row-reverse justify-content-between mt-4" data-aos="fade-right">
       <div class="col-md-6">
         <img
           src="https://storage.googleapis.com/vue-course-api.appspot.com/iris831206/1710772108160.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=HwA3eT1w1fxwBT%2BbItOZodTuWN3YxXMYskA0xfZvCrFLggfRFjQG432FY8ks6kmmQHtuL48DBQ0YqWKg1zd4nWl6DSfCZq4yUbSc4q0Z6xYZR7WQBFSmEmLers2PbvqVKOUoO%2FHxYNHifUZilkDFUVXJlegWtUYHweHbYX%2BDy5NH9KDmira5qy6UhWixOwVtKxU9ktqpMiFaE9n1%2FT6gor8SG8JJnSuvH%2FSJColkX93gm7AI%2BJnQOvjuhpAEmjE2z8%2FF41W3f5m8dRh3PnZXizOZqSMwSvhD%2BI%2BwQq0oqt5YktVE2sacj5L5DacZBRSeMI4yJgm0q6oat3P92IAIUQ%3D%3D"
