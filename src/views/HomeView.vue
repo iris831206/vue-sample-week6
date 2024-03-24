@@ -129,7 +129,7 @@
           style="object-fit:cover" alt="" class="img-fluid">
       </div>
       <div class="col-md-4 m-auto text-center">
-        <h4 class="mt-4">療癒身心</h4>
+        <h4 class="mt-4" data-aos="fade-left">療癒身心</h4>
         <p class="text-muted">
           每次沐浴都是一次環繞自己的美麗禮讚
         </p>
@@ -142,7 +142,7 @@
           style="object-fit:cover" alt="" class="img-fluid">
       </div>
       <div class="col-md-4 m-auto text-center">
-        <h4 class="mt-4">享受生活</h4>
+        <h4 class="mt-4" data-aos="fade-right">享受生活</h4>
         <p class="text-muted">
           為您帶來無與倫比的沐浴體驗
         </p>
@@ -195,6 +195,8 @@
 </template>
 
 <script>
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import Swal from 'sweetalert2'
 import UserComment from '@/components/UserComment.vue'
 
@@ -237,6 +239,7 @@ export default {
     }
   },
   mounted () {
+    AOS.init()
   }
 }
 </script>
