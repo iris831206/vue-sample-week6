@@ -62,18 +62,20 @@
         </div>
       </div>
     </div>
+    <div class="row justify-content-between mt-4">
 
-  </div>
-  <div class="row justify-content-between mt-4">
-    <div class="bg-light">
-      <div class="container">
-        <h4 class="mt-5 fw-bold">推薦商品</h4>
-        <div class="row justify-content-center py-5">
-          <ProductSwiper />
+      <div class="bg-light">
+        <div class="container">
+          <h4 class="mt-5 fw-bold">推薦商品</h4>
+          <div class="row justify-content-center py-5">
+            <ProductSwiper />
+          </div>
         </div>
       </div>
+
     </div>
   </div>
+
 </template>
 
 <script>
